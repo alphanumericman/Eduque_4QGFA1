@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health PH</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Support MentalHealthPH</h1>
+    </header>
+    <div id="intro">
+        <h2 id="central">Why Should You Support MentalHealthPH?</h2>
+        <p>What started as a social media campaign in 2016 that humbly sought to share inspiring stories has grown into a nationwide movement—with volunteers running our headquarters in Metro-Manila's Quezon City to our chapters in Iloilo City, Cebu City, and the Bicol Region. We serve a growing community with over 43,000 members from all over the Philippines—people who share our belief that the experiences Filipinos go through as a result of their mental health are very real and matter enough to be shared, discussed, and holistically addressed throughout the country.</p>
+        <p>Our mental health deserves more than band-aid fixes and feel-good results, so our advocacy is guided by our Three S Framework and Three O Approach. We believe that for us to achieve a mentally healthy community, change must be done in the level of Self, Society, and System. We do this by maximizing social media and Online digital technology, On-Ground activities, and Onward collaborations.</p>
+        <p>The core of #MentalHealthPH lies in giving faces and voices to those experiencing mental health concerns—from struggling with the reality of mental ill health, the stigma of needing and seeking help, as well as supporting the people they love.</p>
+    </div>
+    <div id="fillup">
+        <h2 id="alsopartofform">Sign Up to Support MentalHealthPH</h2>
+        <form id="form">
+            <label></label>First Name:</label>
+            <input type="text" id="firstname" required><br><br>
+            <label>Last Name:</label>
+            <input type="text" id="lastname" required><br><br>
+            <label>Sex:</label>
+            <input type="radio" name="gender" id="sexmale" value="Male" required>
+            <label for="sexmale">Male</label>
+            <input type="radio" name="gender" id="sexfemale" value="Female" required>
+            <label for="sexfemale">Female</label>
+            <input type="radio" name="gender" id="nosex" value="Not Given" required>
+            <label for="nosex">Prefer not to say</label><br><br>
+            <label>Email Adress:</label>
+            <input type="email" id="gmail" required><br><br>
+            <label>Contact Number:</label>
+            <input type="tel" id="number" required><br><br>
+            <button id="submit" onclick="submitForm()">Submit</button>
+            <button id="reset" onclick="refreshpage()">Reset</button>
+        </form><br>
+    </div>
+    <img src="img1.png" id="imag1">
+    <img src="img2.png" id="imag2">
+    <script src="scripts.js"></script>
+</body>
+</html>
